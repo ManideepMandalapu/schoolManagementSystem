@@ -45,7 +45,7 @@ CREATE TABLE Parent_Information (
 CREATE TABLE Class (
     Class_ID INT PRIMARY KEY,
     No_of_Students VARCHAR(30) NOT NULL,
-    Academic_Year YEAR NOT NULL
+    Academic_Year INT NOT NULL
 );
 -- Teacher Information
 CREATE TABLE Teacher_Information (
